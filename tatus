@@ -1,0 +1,65 @@
+[33mcommit 073c51219ff9b5dbc0f60d3e3c759c54acbe67c5[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Rachel Schieferstein <violenza@gmail.com>
+Date:   Fri Mar 13 09:22:57 2020 -0700
+
+    adding boilerplate and basic setup
+
+[33mcommit 73d0f391c7544ebc49bf4dd0f3f6f690ee7a95f0[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Benjamin Thom and Rachel Schieferstein <rachel@>
+Date:   Thu Mar 12 10:38:00 2020 -0700
+
+    update project to include catagories for storing items
+
+[33mcommit 1bfc119c1d4b869a6372862be606b5ec00976bac[m
+Author: Benjamin Thom <jaminthom@gmail.com>
+Date:   Wed Mar 11 13:40:33 2020 -0700
+
+    utilize RESTful routing to updte routing within ItemsController.cs, create a Show method to display unique items and their unique details
+
+[33mcommit 1214aa55e5d36f38ffa4572947d85abc8030044e[m
+Author: Benjamin Thom <jaminthom@gmail.com>
+Date:   Wed Mar 11 11:31:57 2020 -0700
+
+    update Item.cs to include the Find method, run test within ItemTests.cs for Find method and pass
+
+[33mcommit b504c4c67920381550a6e11df30ab96aa936482a[m
+Author: Benjamin Thom <jaminthom@gmail.com>
+Date:   Wed Mar 11 11:25:16 2020 -0700
+
+    run test within ItemTests.cs for Find method and fail
+
+[33mcommit bd1f63982f18ad78f9684d2ee54b84b97b3b892e[m
+Author: Benjamin Thom <jaminthom@gmail.com>
+Date:   Wed Mar 11 11:16:03 2020 -0700
+
+    update Item.cs to include and auto-implemented property for int ID and update the corresponding costructor to include the Id property and use the .Count method to create unique ID values, run test within ItemTests.cs for GetID method and pass
+
+[33mcommit 99b07eb9dc65a5031390f9e1f159a89858d74da2[m
+Author: Benjamin Thom <jaminthom@gmail.com>
+Date:   Wed Mar 11 11:07:44 2020 -0700
+
+    run test within ItemTests.cs for GetID method and fail
+
+[33mcommit 6244160bdf768bd9e1147b49f633971a153a8844[m
+Author: Benjamin Thom <jaminthom@gmail.com>
+Date:   Wed Mar 11 10:59:14 2020 -0700
+
+    update ToDoList.Solution to include ToDoList.Tests directory with necessary subdirectories and files
+
+[33mcommit 7f62f64db31f38493ff5c8f312b834011c0a4aa8[m
+Author: Benjamin Thom <jaminthom@gmail.com>
+Date:   Wed Mar 11 10:38:51 2020 -0700
+
+    update ToDoList.Solution to include delete item functionality. create a delete form within ToDoList/Views/Items/Index.cshtml, update ToDoList/Controllers/ItemsController.cs to include a POST route to handle the delete form's submission, create a new view within ToDoList/Views/Items/ called Delete.cshtml that will display to the user after they have successfully submitted the delete form
+
+[33mcommit 741a1cbc9332330c2419056f8baa04a9c66154f2[m
+Author: Benjamin Thom <jaminthom@gmail.com>
+Date:   Wed Mar 11 10:13:38 2020 -0700
+
+    update ToDoList.Solution to include updated file structure
+
+[33mcommit bca319c473d1bd24e9c2d7d2d6fb7e8bacb8b85e[m
+Author: Benjamin Thom <jaminthom@gmail.com>
+Date:   Wed Mar 11 09:23:22 2020 -0700
+
+    inital commit
